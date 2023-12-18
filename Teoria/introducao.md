@@ -32,7 +32,6 @@
 
 - Vamos ver as linguagens associadas a esses níveis.
 > Nível 0 - Nível da lógica digital: é o mais baixo, composto pelo 'hardware' da máquina (bloco básico é a porta lógica).
-
 - Posso fazer flip flops com as portas lógicas, conciliá-los em registradores, por exemplo.
 - Em resumo, podemos combinar portas lógicas até construir de fato o dispositivo principal e mais complexo: um processador.
 *OBS*: Poderíamos até considerar o nível -1 que seria aquele em que o bloco básico é o transistor.
@@ -41,7 +40,7 @@
 - Registradores são conectados à ULA para formar um caminho de dados.
 - Operação básica do caminho de dados consiste em selecionar um ou dois registradores fazendo com que a ULA efetue algo com eles e armazene o resultado num registrador.
 - Em suma, o seu objetivo é implementar instruções do processador através do controle do caminho de dados.
-> Nível 2 - Nível da Arquitetura do Conujnto de Instruções (ISA)
+> Nível 2 - Nível da Arquitetura do Conjunto de Instruções (ISA)
 - Contém as instruções em linguagem de máquina (binária)
 - O fabricante divulga manuais que explica a arquitetura básica, ex a própria Intel.
 - É a partir daí que as linguagens dos níveis acima são construídas.
